@@ -23,7 +23,6 @@ async function example() {
 
     // https://chromedevtools.github.io/devtools-protocol/tot/Page/#method-startScreencast
     client.Page.startScreencast();
-    await Page.startScreencast();
 
     await Page.navigate({ url: "https://github.com" });
     await Page.loadEventFired();
